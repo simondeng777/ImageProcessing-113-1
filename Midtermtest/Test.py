@@ -2,7 +2,7 @@ import cv2
 import os
 
 #讀入照片
-image1=cv2.imread('myphoto.jpg')
+image1=cv2.imread('Test.jpg')
 
 #顯示像素格式
 print(f"height:{image1.shape[0]} pixels")
