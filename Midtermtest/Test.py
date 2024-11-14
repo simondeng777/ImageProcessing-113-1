@@ -16,18 +16,18 @@ cv2.waitKey(0)
 from PIL import Image
 
 #讀入照片
-image2=Image.open('myphoto.jpg')
+image2=Image.open('Test.jpg')
 type(image2)
 Image._show(image2)
 print(image2.size)
 
 #縮小照片到指定像素
 width=512
-height=512
+height=256
 nim=image2.resize((width,height), Image.BILINEAR)
 Image._show(nim)
 print(nim.size)
 
 #儲存變更照片
-nim.save('HW1.jpg')
+nim.save('鄧維兆.jpg')
 print(nim.mode,nim.format)
